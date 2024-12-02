@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tìm sạc</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="station_address">Địa chỉ: %1$s</string>
+    <string name="station_quantity">Số lượng: %1$d trụ</string>
+    <string name="station_price">Giá: %1$s/1h</string>
+    <string name="station_distance">%1$s km</string>
+    <string name="moti">Thông báo </string>
+    <string name="thongbao">Bạn chưa có thông báo nào !</string>
+    <string name="hotro">Hỗ trợ\n</string>
+    <string name="bancanhotro">Bạn cần hỗ trợ gì ?</string>
+    <string name="callme">Gọi dịch vụ sửa chữa\n+84 012345678</string>
+</resources>

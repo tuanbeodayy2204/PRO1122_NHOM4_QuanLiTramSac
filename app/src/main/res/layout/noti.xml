@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotiActivity">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:text="@string/moti"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+    <!-- Nội dung chính -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+    <!-- Hình ảnh -->
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/noti2"
+        android:layout_gravity="center"
+        android:scaleType="centerInside" />
+
+    <!-- Thông báo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thongbao"
+        android:textAlignment="center" />
+
+</LinearLayout>
+
+    <!-- Thanh điều hướng ở cuối màn hình -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="@android:color/white"
+android:weightSum="5"
+android:padding="8dp">
+
+<!-- Thanh điều hướng - Trang chủ -->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trang chủ"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:paddingTop="4dp" />
+</LinearLayout>
+
+<!-- Thanh điều hướng - Lịch sử -->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_time"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lịch sử"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:paddingTop="4dp" />
+</LinearLayout>
+
+<!-- Thanh điều hướng - Thông báo -->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_noti"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/noti" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông báo"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:paddingTop="4dp" />
+</LinearLayout>
+
+<!-- Thanh điều hướng - Trợ giúp -->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_help"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/help" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trợ giúp"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:paddingTop="4dp" />
+</LinearLayout>
+
+<!-- Thanh điều hướng - Tài khoản -->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_account"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/account" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:paddingTop="4dp" />
+</LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>

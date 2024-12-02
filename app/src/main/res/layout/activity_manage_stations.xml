@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nút thêm điểm sạc -->
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lí điểm sạc"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/addStationButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FF00"
+        android:text="Thêm"
+        android:textColor="#FFFFFF" />
+
+    <!-- RecyclerView hiển thị danh sách điểm sạc -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/stationsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false" />
+</LinearLayout>

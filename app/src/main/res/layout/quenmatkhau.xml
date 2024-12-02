@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+    <!-- Nút Quay Lại -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/forgotPasswordTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000" />
+
+    <!-- Nội dung hướng dẫn -->
+    <TextView
+        android:id="@+id/forgotPasswordSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng nhập email để đổi mật khẩu"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"
+        android:textColor="#666666" />
+
+    <!-- Ô nhập email -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập email"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:inputType="textEmailAddress" />
+
+    <!-- Nút Gửi mã -->
+    <Button
+        android:id="@+id/sendCodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi mã"
+        android:backgroundTint="#00FF00"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+</LinearLayout>
